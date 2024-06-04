@@ -35,7 +35,6 @@ export default function DashboardTitles() {
           width: '100%',
           height: 0.5,
           background: 'rgba(0, 0, 0, 0.25)',
-          marginTop: 2.5,
         }}
       />
     </>

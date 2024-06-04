@@ -1,5 +1,6 @@
 import DashboardAlert from '@/components/DashboardAlert';
 import DashboardCards from '@/components/DashboardCards';
+import DashboardChart from '@/components/DashboardChart';
 import DashboardHeader from '@/components/DashboardHeader';
 import DashboardTable from '@/components/DashboardTable';
 import DashboardTitles from '@/components/DashboardTitles';
@@ -18,6 +19,7 @@ export default function DashboardContent() {
       <DashboardHeader />
       <DashboardTitles />
       <DashboardCards />
+      <DashboardChart />
       <DashboardTable />
     </div>
   );

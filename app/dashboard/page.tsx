@@ -17,7 +17,7 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div className="w-screen h-screen flex flex-row">
+    <div className="w-screen h-full flex flex-row">
       <div className="h-full flex w-full">
         <Sidebar />
         <DashboardContent />
