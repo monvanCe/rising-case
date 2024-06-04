@@ -17,10 +17,12 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div className="w-screen h-full flex flex-row">
+    <div className="w-screen h-full flex flex-row bg-[#F7FAFC]">
       <div className="h-full flex w-full">
         <Sidebar />
-        <DashboardContent />
+        <div className="h-full w-full ml-[90px]">
+          <DashboardContent />
+        </div>
       </div>
     </div>
   );

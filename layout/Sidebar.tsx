@@ -19,6 +19,9 @@ export default function Sidebar() {
         alignItems: 'center',
         borderRight: `1px solid ${colors.light.border}`,
         backgroundColor: colors.light.background,
+        position: 'fixed',
+        left: 0,
+        height: '100vh',
       }}
     >
       <div style={{ padding: 20 }}>
